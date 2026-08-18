@@ -1,0 +1,9 @@
+{
+"fetched_at_utc": null,
+"source": "placeholder - populated by .github/workflows/fetch.yml",
+"change_basis": "vs last completed daily close",
+"commodities": {},
+"ok_count": 0,
+"total_count": 5
+}
+
