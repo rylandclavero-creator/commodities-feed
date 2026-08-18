@@ -1,9 +1,74 @@
 {
-"fetched_at_utc": null,
-"source": "placeholder - populated by .github/workflows/fetch.yml",
-"change_basis": "vs last completed daily close",
-"commodities": {},
-"ok_count": 0,
-"total_count": 5
+  "fetched_at_utc": "2026-08-18T18:57:17.468509+00:00",
+  "source": "Yahoo Finance chart API (delayed)",
+  "change_basis": "vs last completed daily close (see prev_close_date)",
+  "commodities": {
+    "Crude Oil (WTI)": {
+      "ok": true,
+      "price": 84.14,
+      "prev_close": 84.5,
+      "prev_close_date": "2026-08-17",
+      "change_pct": -0.43,
+      "exchange": "NY Mercantile",
+      "contract": "Crude Oil Sep 26",
+      "quote_time_utc": "2026-08-18T18:47:15+00:00",
+      "symbol": "CL=F",
+      "name": "Crude Oil (WTI)",
+      "unit": "USD/bbl"
+    },
+    "Natural Gas (Henry Hub)": {
+      "ok": true,
+      "price": 2.781,
+      "prev_close": 2.69,
+      "prev_close_date": "2026-08-17",
+      "change_pct": 3.38,
+      "exchange": "NY Mercantile",
+      "contract": "Natural Gas Sep 26",
+      "quote_time_utc": "2026-08-18T18:47:03+00:00",
+      "symbol": "NG=F",
+      "name": "Natural Gas (Henry Hub)",
+      "unit": "USD/MMBtu"
+    },
+    "Copper": {
+      "ok": true,
+      "price": 6.476,
+      "prev_close": 6.604,
+      "prev_close_date": "2026-08-17",
+      "change_pct": -1.94,
+      "exchange": "COMEX",
+      "contract": "Copper Sep 26",
+      "quote_time_utc": "2026-08-18T18:46:42+00:00",
+      "symbol": "HG=F",
+      "name": "Copper",
+      "unit": "USD/lb"
+    },
+    "Gold": {
+      "ok": true,
+      "price": 4410.0,
+      "prev_close": 4417.7998,
+      "prev_close_date": "2026-08-17",
+      "change_pct": -0.18,
+      "exchange": "COMEX",
+      "contract": "Gold Dec 26",
+      "quote_time_utc": "2026-08-18T18:47:14+00:00",
+      "symbol": "GC=F",
+      "name": "Gold",
+      "unit": "USD/oz"
+    },
+    "Silver": {
+      "ok": true,
+      "price": 63.92,
+      "prev_close": 66.121,
+      "prev_close_date": "2026-08-17",
+      "change_pct": -3.33,
+      "exchange": "COMEX",
+      "contract": "Silver Sep 26",
+      "quote_time_utc": "2026-08-18T18:47:11+00:00",
+      "symbol": "SI=F",
+      "name": "Silver",
+      "unit": "USD/oz"
+    }
+  },
+  "ok_count": 5,
+  "total_count": 5
 }
-
