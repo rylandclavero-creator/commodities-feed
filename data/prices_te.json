@@ -1,0 +1,54 @@
+{
+  "fetched_at_utc": "2026-08-20T01:22:02.250583+00:00",
+  "source": "Trading Economics public page (delayed, spot)",
+  "change_basis": "TE daily % as published",
+  "commodities": {
+    "Crude Oil": {
+      "ok": true,
+      "price": 84.702,
+      "change_pct": 0.37,
+      "abs_change": "0.312",
+      "unit": "USD/Bbl",
+      "quote_convention": "spot",
+      "name": "Crude Oil"
+    },
+    "Natural gas": {
+      "ok": true,
+      "price": 2.7841,
+      "change_pct": -1.06,
+      "abs_change": "0.0299",
+      "unit": "USD/MMBtu",
+      "quote_convention": "spot",
+      "name": "Natural gas"
+    },
+    "Copper": {
+      "ok": true,
+      "price": 6.468,
+      "change_pct": -0.3,
+      "abs_change": "0.0195",
+      "unit": "USD/Lbs",
+      "quote_convention": "spot",
+      "name": "Copper"
+    },
+    "Gold": {
+      "ok": true,
+      "price": 4502.47,
+      "change_pct": -0.34,
+      "abs_change": "15.31",
+      "unit": "USD/t.oz",
+      "quote_convention": "spot",
+      "name": "Gold"
+    },
+    "Silver": {
+      "ok": true,
+      "price": 66.836,
+      "change_pct": -0.14,
+      "abs_change": "0.091",
+      "unit": "USD/t.oz",
+      "quote_convention": "spot",
+      "name": "Silver"
+    }
+  },
+  "ok_count": 5,
+  "total_count": 5
+}
